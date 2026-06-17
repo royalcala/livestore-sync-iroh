@@ -1,0 +1,19 @@
+{
+  "name": "livestore-sync-iroh",
+  "version": "0.1.0",
+  "description": "LiveStore SyncBackend adapter for iroh-docs — P2P sync without servers",
+  "license": "MIT",
+  "repository": "github:royalcala/livestore-sync-iroh",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": ["src"],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}
